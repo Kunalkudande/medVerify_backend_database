@@ -12,7 +12,7 @@ const ImageSchema = new mongoose.Schema({
   },
   modelType: {
     type: String,
-    enum: ['chest', 'knee'],
+    enum: ['lungs', 'knee'],
     required: true,
   },
   uploadedAt: {

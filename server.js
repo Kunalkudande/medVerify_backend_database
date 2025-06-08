@@ -11,7 +11,7 @@ app.use(express.json());
 
 // Import routers
 app.use("/api/auth", require("./routes/auth"));
-
+app.use("/api/history", require("./controllers/historyController"));
 app.use("/api/image", require("./routes/image"));
 
 const PORT = process.env.PORT || 5000;

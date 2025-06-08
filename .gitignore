@@ -4,6 +4,6 @@
 node_modules/
 package-lock.json
 
-#frontend : nom start
+# frontend : npm start
 # backend python :  uvicorn main:app --reload --port 8000  : here all prediction logic
-# this folder backend: node server.js   : here database logic
+# this folder backend: node server.js   : here database logic  port 5000
